@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'ZenMaruGothicRegular';
+  src: url('~/fonts/ZenMaruGothic-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'ZenMaruGothicMedium';
+  src: url('~/fonts/ZenMaruGothic-Medium.ttf');
+}
+
+:root {
+  font-family: 'ZenMaruGothicMedium';
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* スクロールバー */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  // background-color: $colorLightGreen;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #a0a0a0;
+}
