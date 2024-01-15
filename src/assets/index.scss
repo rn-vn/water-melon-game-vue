@@ -1,3 +1,5 @@
+@import '_valiables.scss';
+
 canvas {
   margin: auto;
   display: block;
@@ -5,14 +7,14 @@ canvas {
 }
 
 body {
-  background: #303030;
+  background: $colorLightGreen;
   margin: 0;
   padding: 30px;
 }
 
 @media screen and (max-width: 800px) {
   body {
-    background: #000;
+    background: $colorLightGreen;
     margin: 0;
     padding: 0;
   }
